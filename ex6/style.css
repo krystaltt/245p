@@ -1,0 +1,41 @@
+.carousel {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  overflow: hidden;
+  /*round corner to match the style with button */
+  border-radius: 25px;
+}
+
+.slide__container {
+  display: inline-flex;
+  white-space: nowrap;
+  position: relative;
+  height: 300px;
+}
+
+.button_Container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+  width: 600px;
+  height: 600px;
+}
+/*adding style for buttons */
+.button {
+  background-color: rgb(108, 196, 197);
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
