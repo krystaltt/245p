@@ -3,8 +3,22 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: red;
+  background-color: #776b5d;
   color: white;
   text-align: center;
-  border: 30 px;
+  padding: 20px;
+}
+
+.footer p {
+  display: inline;
+  color: rgb(255, 255, 255);
+}
+
+/**normal state**/
+.footer a {
+  color: rgb(255, 255, 255);
+}
+
+.footer a:hover {
+  color: #ebe3d5;
 }

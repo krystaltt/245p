@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  color: #322d28;
 }
 
 body {
@@ -9,13 +10,13 @@ body {
 
 .header {
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #ebe3d5;
   padding: 20px 10px;
 }
 
 .header a {
   float: left;
-  color: black;
+  color: #b0a695;
   text-align: center;
   padding: 12px;
   text-decoration: none;
@@ -27,15 +28,17 @@ body {
 .header a.logo {
   font-size: 25px;
   font-weight: bold;
+  color: #776b5d;
+  font-family: cursive;
 }
 
 .header a:hover {
-  background-color: #ddd;
+  background-color: #f3eeea;
   color: black;
 }
 
 .header a.active {
-  background-color: dodgerblue;
+  background-color: #b0a695;
   color: white;
 }
 

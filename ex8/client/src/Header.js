@@ -11,8 +11,8 @@ function Header() {
           <a className="active" href="#home">
             Home
           </a>
-          <a href="#contact">Contact</a>
           <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
     </>

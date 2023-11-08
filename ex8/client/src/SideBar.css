@@ -2,6 +2,12 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+.main p {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 28px;
+}
+
 .sidenav {
   height: 100%;
   width: 160px;
@@ -9,17 +15,17 @@ body {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #b0a695;
   overflow-x: hidden;
   padding-top: 20px;
-  margin-top: 90px;
+  margin-top: 89px;
 }
 
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 25px;
-  color: #818181;
+  color: #776b5d;
   display: block;
 }
 
