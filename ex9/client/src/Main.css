@@ -1,0 +1,19 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.main p {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 28px;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav  160+40*/
+  margin-right: 40px;
+  margin-top: 40px;
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+  margin-bottom: 90px;
+  color: #353029;
+}
