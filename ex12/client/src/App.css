@@ -1,0 +1,19 @@
+.sidebar_content {
+  display: -webkit-flex;
+  display: flex;
+  font-weight: 500;
+}
+.App {
+  box-sizing: border-box;
+  overflow: hidden; /* Ensure the border wraps around the content */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 8px;
+}
+
+@media (max-width: 600px) {
+  .sidebar_content {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}

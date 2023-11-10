@@ -1,0 +1,15 @@
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #faf1e4;
+  padding: 10px;
+}
+h1 {
+  color: #435334;
+  font-size: 19px;
+}
+
+p {
+  color: #617575;
+}
